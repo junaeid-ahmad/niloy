@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cumilla University Of Engineering & Technology - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        /* ==== HEADER CUSTOM STYLE ==== */
+        .header-info {
+            background: linear-gradient(90deg, #003973, #0d5e7065);
+            color: rgb(0, 0, 0);
+            border-bottom: 3px solid #0dcaf0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.747);
+        }
+
+        .header-info h3,
+        .header-info h4 {
+            text-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
+        }
+
+        .header-info img {
+            border: 2px solid #13798d;
+            box-shadow: 0 0 10px rgba(13, 202, 240, 0.377);
+        }
+
+        /* ==== FOOTER GLOW STYLE ==== */
+        .footer-glow {
+            background: radial-gradient(circle at top left, #0d45fd8c, #050505be);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ccc;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer-glow::before {
+            content: "";
+            position: absolute;
+            top: -100px;
+            left: -100px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(13, 225, 253, 0.3) 0%, transparent 80%);
+            filter: blur(100px);
+            z-index: 0;
+        }
+
+        .footer-glow::after {
+            content: "";
+            position: absolute;
+            bottom: -100px;
+            right: -100px;
+            width: 250px;
+            height: 250px;
+            background: radial-gradient(circle, rgba(0, 255, 204, 0.3) 0%, transparent 80%);
+            filter: blur(120px);
+            z-index: 0;
+        }
+
+        .footer-glow .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-links a {
+            color: #bbb;
+            text-decoration: none;
+            display: block;
+            padding: 6px 0;
+            transition: 0.3s;
+        }
+
+        .footer-links a i {
+            color: #0dcaf0;
+            margin-right: 6px;
+        }
+
+        .footer-links a:hover {
+            color: #0dcaf0;
+            transform: translateX(8px);
+        }
+
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.05);
+            color: #0dcaf0;
+            font-size: 1.4rem;
+            transition: 0.3s;
+            backdrop-filter: blur(5px);
+        }
+
+        .social-icon:hover {
+            background: linear-gradient(45deg, #0d6efd, #00d4ff);
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        .glow-title {
+            border-left: 4px solid #0dcaf0;
+            padding-left: 8px;
+            text-shadow: 0 0 10px rgba(13, 202, 240, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container-fluid text-white p-3 header-info">
+        <div class="row align-items-center">
+            <div class="col-auto">
+                <img src="image/logo.png" class="img-fluid rounded-pill" width="70" alt="Institute Logo">
+            </div>
+            <div class="col">
+                <h3 class="title mb-0">Cumilla University Of Engineering & Technology</h3>
+                <h4 class="title fw-light mb-0">Cantonment, Cumilla</h4>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <img src="image/niloy.png" class="img-fluid rounded-pill" width="40" alt="Institute Logo">
+            <a class="navbar-brand" href="#">CoUET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+                aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About CoUET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Publicatoin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Online Service</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/CoUET.jpg" alt="Campus View 1" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="image/CSE.jpg" alt="Campus View 2" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="image/Playgruond.jpg" alt="Campus View 3" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main class="container my-4">
+        <div class="row">
+            <div class="col-lg-8 mb-4">
+                <h2 class="mb-4 text-success border-bottom pb-2"><i class="bi bi-book-half me-2"></i> Welcome To My University </h2>
+                </h2>
+                <p>CoUET University of Engineering and Technology (CoUET)
+Located in Cumilla, Bangladesh, CoUET is a public engineering and technological university.
+History: It was founded in 2025 as the College of Engineering under the University of Cumilla. It became an autonomous university under its current name in 2003.
+Academics: The university focuses on engineering and architecture, with 14 departments and 3 institutes under 4 faculties.
+Admissions: The university primarily offers undergraduate and graduate programs and has stringent admission requirements, including a competitive entrance exam.
+* **Academic Programs:** The university offers a variety of undergraduate and postgraduate programs under several faculties, including:
+    * Civil Engineering (CE)
+    * Electrical and Electronic Engineering (EEE)
+    * Mechanical Engineering (ME)
+    * Computer Science and Engineering (CSE)
+    * Textile Engineering
+    * Architecture
+            </div>
+
+            <aside class="col-lg-4">
+
+                <!--Principal Section -->
+<section class="sidebar card p-3 mb-4 text-center shadow-sm">
+    <h4 class="card-header p_ple bg-primary text-white">Principal</h4>
+    <div class="card-body">
+        <img src="image/IMG_1526.png" class="img-fluid rectangle mb-2" width="100"
+            alt="Principal Sajid Islam Niloy">
+        <p class="fw-bold mb-1">Sajid Islam Niloy</p>
+        <button class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#principalModal">
+            Details
+        </button>
+    </div>
+</section>
+
+<!-- Principal Details Modal -->
+<div class="modal fade" id="principalModal" tabindex="-1" aria-labelledby="principalModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="photographer">Principal Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <h5 class="fw-bold mb-1">Sajid Islam Niloy</h5>
+                <p class="text-muted mb-2">Principal, Cumilla University Of Engineering & Technology</p>
+                <p class="small">
+                    Mr. Sajid Islam Niloy is a dedicated academic leader with years of experience in technical education. 
+                    Under his leadership, CPI continues to excel in academic and extracurricular excellence.
+                </p>
+                <ul class="list-unstyled small text-start">
+                    <li><strong>Qualification:</strong> M.Sc. in Engineering (CSE)</li>
+                    <li><strong>Experience:</strong> 20+ Years in Technical Education</li>
+                    <li><strong>Email:</strong> principal@cpi.edu.bd</li>
+                    <li><strong>Phone:</strong> +8801XXXXXXXXX</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Vice Principal Section -->
+<section class="sidebar card p-3 mb-4 text-center shadow-sm">
+    <h4 class="card-header p_ple bg-secondary text-white">Vice-Principal</h4>
+    <div class="card-body">
+        <img src="image/WhatsApp Image 2025-10-18 at 19.47.43_a8ecb389.jpg"
+            class="img-fluid rectangle mb-2" width="100" alt="Vice-Principal Aminul Islam">
+        <p class="fw-bold mb-1">Aminul Islam Amman</p>
+        <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#vicePrincipalModal">
+            Details
+        </button>
+    </div>
+</section>
+
+<!-- Vice Principal Details Modal -->
+<div class="modal fade" id="vicePrincipalModal" tabindex="-1" aria-labelledby="vicePrincipalModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-secondary text-white">
+                <h5 class="modal-title" id="vicePrincipalModalLabel">Vice-Principal Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <h5 class="fw-bold mb-1">Aminul Islam Amman</h5>
+                <p class="text-muted mb-2">Vice-Principal, Cumilla University Of Engineering & Technology</p>
+                <p class="small">
+                    Mr. Aminul Islam is a dedicated academic and administrative leader who plays a vital role in maintaining 
+                    the institute’s academic excellence and discipline. He focuses on innovation, skill development, 
+                    and student welfare.
+                </p>
+                <ul class="list-unstyled small text-start">
+                    <li><strong>Qualification:</strong> B.Sc. in Computer Science & Engineering</li>
+                    <li><strong>Experience:</strong> 15+ Years in Technical Education</li>
+                    <li><strong>Email:</strong> viceprincipal@cpi.edu.bd</li>
+                    <li><strong>Phone:</strong> +8801XXXXXXXXX</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <!-- Google Map -->
+                <section class="sidebar card p-3 mb-4 shadow-sm">
+                    <h4 class="card-header p_ple bg-info text-white">Google Map</h4>
+                    <div class="ratio ratio-4x3 card-body p-0">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14732.613689439603!2d91.13963420847248!3d23.4475494496262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3753696f81e33235%3A0x2a3e30f1d431057!2sCumilla%20Polytechnic%20Institute!5e0!3m2!1sen!2sbd!4v1700000000000!5m2!1sen!2sbd"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Map of Cumilla Polytechnic Institute"></iframe>
+                    </div>
+                </section>
+
+               <!-- Academic Calendar (Updated Google Calendar) -->
+<section class="sidebar card p-3 mb-4 shadow-sm">
+    <h4 class="card-header p_ple bg-warning text-dark">Academic Calendar</h4>
+    <div class="ratio ratio-4x3 card-body p-0">
+        <iframe 
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FDhaka&src=en.bd%23holiday%40group.v.calendar.google.com&color=%23039BE5&mode=MONTH" 
+            style="border:0" 
+            width="100%" 
+            height="300" 
+            frameborder="0" 
+            scrolling="no"
+            title="Updated Academic Calendar">
+        </iframe>
+    </div>
+</section>
+
+                <!-- National Anthem -->
+                <section class="sidebar card p-3 mb-4 shadow-sm">
+                    <h4 class="card-header p_ple bg-danger text-white">National Anthem</h4>
+                    <div class="card-body text-center">
+                        <p class="fw-bold mb-2">Amar Sonar Bangla</p>
+                        <audio controls class="w-100">
+                            <source src="image/bd_national_anthem.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </section>
+
+             <!-- Important Links -->
+<section class="sidebar card p-3 mb-4 shadow-sm">
+  <h4 class="card-header p_ple bg-success text-white">Important Links</h4>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+      <a href="https://www.bteb.gov.bd/" target="_blank">BTEB (Bangladesh Technical Education Board)</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://www.techedu.gov.bd/" target="_blank">DTE (Directorate of Technical Education)</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://moedu.gov.bd/" target="_blank">Ministry of Education</a>
+    </li>
+  </ul>
+</section>
+
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer (Glow Version) -->
+<footer class="footer-glow mt-5">
+  <div class="container py-5">
+    <div class="row gy-4 text-center text-md-start">
+      
+      <!-- Institute Info -->
+      <div class="col-md-3">
+        <h4 class="fw-bold text-light mb-3">Cumilla University Of Engineering & Technology</h4>
+        <p class="small mb-1 text-secondary">© 2025 All Rights Reserved.</p>
+        <p class="small mb-0 text-secondary">Designed by <span class="text-info">SAjid Islam Niloy</span></p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3">
+        <h5 class="fw-semibold mb-3 text-light glow-title">Quick Links</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="#"><i class="bi bi-house-door"></i> Home</a></li>
+          <li><a href="#"><i class="bi bi-telephone"></i> Contact</a></li>
+          <li><a href="#"><i class="bi bi-images"></i>About & Admissoin</a></li>
+        </ul>
+      </div>
+
+      <!-- Address -->
+      <div class="col-md-3">
+        <h5 class="fw-semibold mb-3 text-light glow-title">Address</h5>
+        <p><i class="bi bi-geo-alt-fill text-info"></i> Cantonment, Cumilla, Bangladesh</p>
+        <p><i class="bi bi-envelope text-info"></i> info@couet.edu.bd</p>
+        <p><i class="bi bi-telephone-forward text-info"></i> +8801XXXXXXXXX</p>
+      </div>
+
+     <!-- Social -->
+<div class="col-md-3">
+  <h5 class="fw-semibold mb-3 text-light glow-title">Follow Us</h5>
+  <div class="d-flex justify-content-center justify-content-md-start gap-3">
+    <a href="https://www.facebook.com/share/1CKr3Uhhny/" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
+    <a href="" target="_blank" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+    <a href="" target="_blank" class="social-icon"><i class="bi bi-youtube"></i></a>
+    <a href="https://www.instagram.com/sajidislam.niloy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* ==== FOOTER GLOW STYLE ==== */
+  .footer-glow {
+    background: radial-gradient(circle at top left, #0d45fd8c, #0505058c);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ccc;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .footer-glow::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(13, 225, 253, 0.3) 0%, transparent 80%);
+    filter: blur(100px);
+    z-index: 0;
+  }
+
+  .footer-glow::after {
+    content: "";
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(0, 255, 204, 0.3) 0%, transparent 80%);
+    filter: blur(120px);
+    z-index: 0;
+  }
+
+  .footer-glow .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    display: block;
+    padding: 6px 0;
+    transition: 0.3s;
+  }
+
+  .footer-links a i {
+    color: #0dcaf0;
+    margin-right: 6px;
+  }
+
+  .footer-links a:hover {
+    color: #0dcaf0;
+    transform: translateX(8px);
+  }
+
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #0dcaf0;
+    font-size: 1.4rem;
+    transition: 0.3s;
+    backdrop-filter: blur(5px);
+  }
+
+  .social-icon:hover {
+    background: linear-gradient(45deg, #0d6efd, #00d4ff);
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+  .glow-title {
+    border-left: 4px solid #0dcaf0;
+    padding-left: 8px;
+    text-shadow: 0 0 10px rgba(13, 202, 240, 0.5);
+  }
+</style>
+
+
+    <script>
+        // Auto update year
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
